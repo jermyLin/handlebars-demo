@@ -74,9 +74,6 @@
         ]
         Handlebars.registerHelper('chinese', function (value) {
             var arr = ['一', '二', '三'];
-            if (this.age && this.age > 20) {
-                this.isOver = true;
-            }
             return arr[value];
         });
         Handlebars.registerHelper('addone', function (value) {
